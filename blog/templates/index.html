@@ -1,0 +1,7 @@
+Hello World!
+
+{%for post in posts%}<br>
+<a href="{{post.get_absolute_url}}">{{post.title}}</a>
+<br>
+{{post.author}}<br><br>
+{% endfor %}
